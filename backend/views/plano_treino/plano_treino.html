@@ -4,59 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   <!-- favicon -->
-    <link rel="shortcut icon" href="../../assets/img/gym125.png" type="image/png">
+    <title>ISEP Ginásio</title>
 
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../assets/bootstrap/bootstrap.min.css">
 
-    <!-- Font Awesome (local) -->
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../../assets/img/gym125.png">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="../../assets/fontawesome/all.min.css">
 
-    <!-- estilos -->
-    <link rel="stylesheet" href="../../assets/css/admin.css">
+    <link rel="stylesheet" href="../../assets/css/app.css">
+
 </head>
 
 <body>
+
     <!-- Navbar -->
-    <header class="bng-navbar-menu">
+    <header class="container-fluid bg-dark text-white">
+        <div class="row align-items-center">
 
-        <div>
-            <!-- Logo e Nome -->
-            <a href="../../index.html">
-                <img src="../../assets/img/gym125_white.png" alt="Logo do ISEP Ginásio">
-            </a>
-            <h3>ISEP Ginásio</h3>
+            <div class="col-6 d-flex align-items-center p-3">
+                <a href="../../index.html">
+                    <img src="../../assets/img/gym125_white.png" height="40" class="me-3">
+                </a>
+                <h3 class="mb-0">ISEP Ginásio</h3>
+            </div>
+
+            <div class="col-6 text-end p-3">
+                <button class="btn btn-secondary">
+                    <i class="fa-regular fa-user me-2"></i> Utilizador
+                </button>
+            </div>
+
         </div>
-
-        <div>
-            <button>Utilizador</button>
-        </div>
-
     </header>
 
-    <!-- Sidebar -->
-    <aside class="sidebar">
-        <h4>Menu</h4>
-        <nav>
-            <a href="../clientes/lista.html"><i class="fas fa-users"></i> &ensp; Clientes</a>
-            <a href="../agendamento/agendamento.html"><i class="fas fa-calendar-alt"></i> &ensp; Agendamento de treinos</a>
-            <a href="plano_treino.html"><i class="fas fa-dumbbell"></i> &ensp; Planos de Treino</a>
-            <a href="../equipamentos/equipamentos.html"><i class="fas fa-cogs"></i> &ensp; Equipamentos</a>
-            <a href="../produtos_servicos/produtos_servicos.html"><i class="fas fa-box-open"></i> &ensp; Produtos e Serviços</a>
-        </nav>
-    </aside>
+    <div class="container-fluid">
+        <div class="row">
 
-    <!-- Conteúdo Principal -->
-    <main class="content">
-        <section>
-            <h2>Planos de Treino</h2>
-            <p>Gerir e consultar os planos de treino disponíveis para os clientes.</p>
-        </section>
-    </main>
+            <!-- Sidebar -->
+            <aside class="col-md-3 col-lg-2 bg-secondary text-white p-3 min-vh-100">
+
+                <h4>Menu</h4>
+
+                <nav>
+                    <a href="../clientes/lista.html" class="nav-link text-white px-0 mb-2 d-block">
+                        <i class="fas fa-users me-2"></i> Clientes
+                    </a>
+
+                    <a href="../agendamento/agendamento.html" class="nav-link text-white px-0 mb-2 d-block">
+                        <i class="fas fa-calendar-alt me-2"></i> Agendamento de treinos
+                    </a>
+
+                    <a href="plano_treino.html" class="nav-link text-white px-0 mb-2 d-block">
+                        <i class="fas fa-dumbbell me-2"></i> Planos de Treino
+                    </a>
+
+                    <a href="../equipamentos/equipamentos.html" class="nav-link text-white px-0 mb-2 d-block">
+                        <i class="fas fa-cogs me-2"></i> Equipamentos
+                    </a>
+
+                    <a href="../produtos_servicos/produtos_servicos.html" class="nav-link text-white px-0 mb-2 d-block">
+                        <i class="fas fa-box-open me-2"></i> Produtos e Serviços
+                    </a>
+                </nav>
+
+            </aside>
+
+            <!-- Conteúdo -->
+            <main class="col-md-9 col-lg-10 p-4">
+
+                <h2>
+                    <i class="fas fa-dumbbell me-2"></i>
+                    Planos de Treino
+                </h2>
+
+                <hr>
+
+                <p>Gerir e consultar os planos de treino disponíveis para os clientes.</p>
+
+            </main>
+
+        </div>
+    </div>
+
+    <script src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
 
 </body>
 

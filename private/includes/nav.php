@@ -4,7 +4,7 @@
 
         <div class="col-6 d-flex align-items-center p-3">
             <!-- Logo e Nome -->
-            <a href="index.html">
+            <a href="/isep-ginasio/private/index.php">
                 <img alt="Logo do ISEP Ginásio" height="40" src="/isep-ginasio/private/assets/img/gym125_white.png" class="me-3" />
             </a>
 

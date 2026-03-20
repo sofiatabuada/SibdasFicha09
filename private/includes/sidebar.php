@@ -8,12 +8,12 @@
         <a href="/isep-ginasio/private/views/agendamento/agendamento.php" class="nav-link text-white px-0 mb-2 d-block">
             <i class="fas fa-calendar-alt me-2"></i> Agendamento de treinos
         </a>
-        <a href="/isep-ginasio/private/views/planos/planos.php" class="nav-link text-white px-0 mb-2 d-block">
+        <a href="/isep-ginasio/private/views/plano_treino/plano_treino.php" class="nav-link text-white px-0 mb-2 d-block">
             <i class="fas fa-dumbbell me-2"></i> Planos de Treino</a>
         <a href="/isep-ginasio/private/views/equipamentos/equipamentos.php" class="nav-link text-white px-0 mb-2 d-block">
             <i class="fas fa-cogs me-2"></i> Equipamentos
         </a>
-        <a href="/isep-ginasio/private/views/produtos-servicos/produtos-servicos.php"
+        <a href="/isep-ginasio/private/views/produtos_servicos/produtos_servicos.php"
             class="nav-link text-white px-0 mb-2 d-block active">
             <i class="fas fa-box-open me-2"></i> Produtos e Serviços
         </a>

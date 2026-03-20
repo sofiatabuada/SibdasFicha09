@@ -11,10 +11,10 @@ require_once __DIR__ . '/../../config/config.php';
     <title><?php echo APP_NAME; ?></title>
 
     <!-- Bootstrap CSS & custom CSS -->
-    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/isep-ginasio/private/assets/bootstrap/bootstrap.min.css">
 
-    <!-- favicon -->
-    <link rel="shortcut icon" href="assets/img/gym125.png" type="image/png">
+    <!-- Ícone do separador (favicon) -->
+    <link rel="shortcut icon" href="/isep-ginasio/private/assets/img/gym125.png" type="image/png">
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,10 +23,12 @@ require_once __DIR__ . '/../../config/config.php';
         href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
 
-    <!-- Font Awesome (local) -->
-    <link rel="stylesheet" href="assets/fontawesome/all.min.css">
+    <!-- Font Awesome (ícones) -->
+    <link rel="stylesheet" href="/isep-ginasio/private/assets/fontawesome/all.min.css">
 
     <!-- estilos -->
-    <link rel="stylesheet" href="../../assets/css/app.css">
+    <link rel="stylesheet" href="/isep-ginasio/private/assets/css/app.css">
 
 </head>
+
+<body>

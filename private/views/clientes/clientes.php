@@ -28,7 +28,7 @@
 
         <div>
             <!-- Logo e Nome -->
-            <a href="../../index.html">
+            <a href="../../index.php">
                 <img src="../../assets/img/gym125_white.png" alt="Logo do ISEP Ginásio">
             </a>
             <h3>ISEP Ginásio</h3>
@@ -61,7 +61,7 @@
 
         <nav>
 
-            <a href="lista.html" class="nav-link text-white px-0 mb-2 d-block">
+            <a href="lista.php" class="nav-link text-white px-0 mb-2 d-block">
                 <i class="fas fa-users"></i> &ensp; Clientes
             </a>
 
